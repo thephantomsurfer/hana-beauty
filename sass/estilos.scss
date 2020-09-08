@@ -1,0 +1,330 @@
+/*VARIABLES*/
+$main-color: red;
+$main-font: orator std, monospace;
+
+html {
+    font-size: 62.5%;
+}
+
+#hanalogo {
+    width: 100px;
+}
+
+/*@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}*/
+
+.rotate3d:hover {
+    animation-duration: 1s;
+    animation-name: rotate;
+}
+
+#sumibranch {
+    width: 1000px;
+    opacity: 50%;
+    float: right;
+    margin-top: 80px;
+    margin-right: -8px;
+    overflow: hidden;
+}
+
+#facebook {
+    width: 20px;
+}
+
+#instagram {
+    width: 20px;
+}
+
+#sumiBamboo {
+    height: 100%;
+    position: absolute;
+    align-self: center;
+    overflow: hidden;
+    z-index: -1;
+    display: flex;
+    opacity: 15%;
+}
+
+#darkSkin {
+    width: 100%;
+}
+
+#yudith {
+    height: 400px;
+}
+
+.grid { /*background-color: brown;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 40px;
+    animation-duration: 2s;
+    animation-name: aparecerContent;
+    padding-top: 8%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.space {
+    margin-top: 50px;
+}
+
+a.grow {
+    color: $main-color;
+    text-decoration: none;
+    font-family: $main-font;
+    line-height: 3;
+    font-size: 1.6rem;
+    transition: font-size 1s;
+    :hover {
+        font-size: 3rem;
+    }
+    .h2 {
+        font-size: 3rem;
+    }
+}
+
+$class: regular;
+
+body {
+    margin: 0rem;
+    @if $class == fondoHorrible {
+        background-image: url("../images/hanalogo.png");
+    } @else {
+        background-image: url("../images/backtexture.png");
+    }
+}
+
+p {
+    color: $main-color;
+    font-family: $main-font;
+    line-height: 1;
+    font-size: 2.5rem;
+    .detail {
+        font-size: 1.2rem;
+    }   
+}
+        
+td {
+    color: $main-color;
+    font-family: $main-font;
+    line-height: 1;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.flexFather {
+    display: flex;
+    flex-direction: row;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    flex: 384px; /*20%*/
+    animation-duration: 2s;
+    animation-name: aparecerSide;
+}
+
+@keyframes aparecerSide {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1536px; /*80%*/
+    /*background-color: seagreen;*/
+}
+
+.backImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1536px; /*80%*/
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    padding-left: 75px /*20%*/;
+    padding-top: 120px /*30%*/;
+    height: 400px;
+}
+
+.desc {
+    color: $main-color;
+    font-family: $main-font;
+    font-size: 1.6rem;
+    padding-top: 10px /*2%*/;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    padding-left: 115px /*20%*/;
+    padding-top: 120px /*30%*/;
+}
+
+.footer { 
+    display: flex;
+    flex-direction: column;
+    padding-left: 115px /*30%*/;
+    padding-top: 150px /*40%*/;
+}
+
+.legales {
+    color: $main-color;
+    font-family: $main-font;
+    line-height: 1;
+    font-size: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px /*2%*/;
+    td {
+        border: solid 1px $main-color; 
+    }
+}
+
+#flowerIcon {
+    display: flex;
+    /*align-self: center;*/
+    animation-name: spin;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.treatments {
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    animation-duration: 2s;
+    animation-name: aparecerContent;
+    padding-top: 115px /*7%*/;
+    padding-left: 10px /*2%*/;
+}
+
+@keyframes aparecerContent {
+    0% {
+        opacity: 0;
+        margin-top: 20px /*2%*/;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.formContact {
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px/*20%*/;
+    padding-top: 475px /*30%*/;
+    animation-duration: 2s;
+    animation-name: aparecerContent;
+    /*background-color: tomato;*/
+}
+
+.inputContact {
+    display: flex;
+    flex-direction: column;
+    /*background-color: snow;*/
+    justify-content: space-between;
+}
+
+.messageArea {
+    flex-direction: column;
+    display: flex;
+    /*background-color: turquoise;*/
+}
+
+.buttonContact {
+    background-color: $main-color;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    
+input {
+    border: none;
+    border-bottom: 1px solid $main-color;
+    padding: 12px /*3%*/;
+    background-color: #ececec;
+    outline: none;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.smallText {
+    font-size: 1.2rem;
+    font-family: $main-font;
+    color: $main-color;
+}
+
+select {
+    width: 100%;
+    padding: 3px;
+    border: solid 1px $main-color;
+    background-color: /*#ececec;*/ white;
+    font-size: 1.2rem;
+    font-family: $main-font;
+    color: $main-color;
+    outline: none;
+}
+
+.about {
+    justify-content: center;
+    display: flex;
+    padding-right: 150px/*10%*/;
+    animation-duration: 2s;
+    animation-name: aparecerContent;
+    padding-top: 250px /*15%*/;
+}
+
+.bio {
+    justify-content: center;
+    display: flex;
+    padding-right: 150px/*10%*/;
+    animation-duration: 2s;
+    animation-name: aparecerContent;
+}

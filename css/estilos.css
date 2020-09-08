@@ -1,0 +1,373 @@
+/*VARIABLES*/
+/* line 5, ../../Curso web design/Hana con scss/sass/estilos.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 9, ../../Curso web design/Hana con scss/sass/estilos.scss */
+#hanalogo {
+  width: 100px;
+}
+
+/*@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}*/
+/* line 22, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.rotate3d:hover {
+  animation-duration: 1s;
+  animation-name: rotate;
+}
+
+/* line 27, ../../Curso web design/Hana con scss/sass/estilos.scss */
+#sumibranch {
+  width: 1000px;
+  opacity: 50%;
+  float: right;
+  margin-top: 80px;
+  margin-right: -8px;
+  overflow: hidden;
+}
+
+/* line 36, ../../Curso web design/Hana con scss/sass/estilos.scss */
+#facebook {
+  width: 20px;
+}
+
+/* line 40, ../../Curso web design/Hana con scss/sass/estilos.scss */
+#instagram {
+  width: 20px;
+}
+
+/* line 44, ../../Curso web design/Hana con scss/sass/estilos.scss */
+#sumiBamboo {
+  height: 100%;
+  position: absolute;
+  align-self: center;
+  overflow: hidden;
+  z-index: -1;
+  display: flex;
+  opacity: 15%;
+}
+
+/* line 54, ../../Curso web design/Hana con scss/sass/estilos.scss */
+#darkSkin {
+  width: 100%;
+}
+
+/* line 58, ../../Curso web design/Hana con scss/sass/estilos.scss */
+#yudith {
+  height: 400px;
+}
+
+/* line 62, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.grid {
+  /*background-color: brown;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 40px;
+  animation-duration: 2s;
+  animation-name: aparecerContent;
+  padding-top: 8%;
+}
+
+/* line 73, ../../Curso web design/Hana con scss/sass/estilos.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 77, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.space {
+  margin-top: 50px;
+}
+
+/* line 81, ../../Curso web design/Hana con scss/sass/estilos.scss */
+a.grow {
+  color: red;
+  text-decoration: none;
+  font-family: orator std, monospace;
+  line-height: 3;
+  font-size: 1.6rem;
+  transition: font-size 1s;
+}
+
+/* line 88, ../../Curso web design/Hana con scss/sass/estilos.scss */
+a.grow :hover {
+  font-size: 3rem;
+}
+
+/* line 91, ../../Curso web design/Hana con scss/sass/estilos.scss */
+a.grow .h2 {
+  font-size: 3rem;
+}
+
+/* line 98, ../../Curso web design/Hana con scss/sass/estilos.scss */
+body {
+  margin: 0rem;
+  background-image: url("../images/backtexture.png");
+}
+
+/* line 107, ../../Curso web design/Hana con scss/sass/estilos.scss */
+p {
+  color: red;
+  font-family: orator std, monospace;
+  line-height: 1;
+  font-size: 2.5rem;
+}
+
+/* line 112, ../../Curso web design/Hana con scss/sass/estilos.scss */
+p .detail {
+  font-size: 1.2rem;
+}
+
+/* line 117, ../../Curso web design/Hana con scss/sass/estilos.scss */
+td {
+  color: red;
+  font-family: orator std, monospace;
+  line-height: 1;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+/* line 125, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.flexFather {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 130, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.side {
+  display: flex;
+  flex-direction: column;
+  flex: 384px;
+  /*20%*/
+  animation-duration: 2s;
+  animation-name: aparecerSide;
+}
+
+@keyframes aparecerSide {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 147, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1536px;
+  /*80%*/
+  /*background-color: seagreen;*/
+}
+
+/* line 154, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.backImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1536px;
+  /*80%*/
+}
+
+/* line 161, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.sections {
+  display: flex;
+  flex-direction: column;
+  padding-left: 75px;
+  padding-top: 120px;
+  height: 400px;
+}
+
+/* line 169, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.desc {
+  color: red;
+  font-family: orator std, monospace;
+  font-size: 1.6rem;
+  padding-top: 10px;
+}
+
+/* line 176, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  padding-left: 115px;
+  padding-top: 120px;
+}
+
+/* line 183, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 115px;
+  padding-top: 150px;
+}
+
+/* line 190, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.legales {
+  color: red;
+  font-family: orator std, monospace;
+  line-height: 1;
+  font-size: 1rem;
+}
+
+/* line 197, ../../Curso web design/Hana con scss/sass/estilos.scss */
+table {
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+/* line 200, ../../Curso web design/Hana con scss/sass/estilos.scss */
+table td {
+  border: solid 1px red;
+}
+
+/* line 205, ../../Curso web design/Hana con scss/sass/estilos.scss */
+#flowerIcon {
+  display: flex;
+  /*align-self: center;*/
+  animation-name: spin;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* line 223, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.treatments {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+  animation-duration: 2s;
+  animation-name: aparecerContent;
+  padding-top: 115px;
+  padding-left: 10px;
+}
+
+@keyframes aparecerContent {
+  0% {
+    opacity: 0;
+    margin-top: 20px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* line 243, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 248, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.formContact {
+  display: flex;
+  flex-direction: row;
+  padding-left: 150px;
+  padding-top: 475px;
+  animation-duration: 2s;
+  animation-name: aparecerContent;
+  /*background-color: tomato;*/
+}
+
+/* line 258, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.inputContact {
+  display: flex;
+  flex-direction: column;
+  /*background-color: snow;*/
+  justify-content: space-between;
+}
+
+/* line 265, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.messageArea {
+  flex-direction: column;
+  display: flex;
+  /*background-color: turquoise;*/
+}
+
+/* line 271, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.buttonContact {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* line 284, ../../Curso web design/Hana con scss/sass/estilos.scss */
+input {
+  border: none;
+  border-bottom: 1px solid red;
+  padding: 12px;
+  background-color: #ececec;
+  outline: none;
+}
+
+/* line 292, ../../Curso web design/Hana con scss/sass/estilos.scss */
+textarea {
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+/* line 298, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.smallText {
+  font-size: 1.2rem;
+  font-family: orator std, monospace;
+  color: red;
+}
+
+/* line 304, ../../Curso web design/Hana con scss/sass/estilos.scss */
+select {
+  width: 100%;
+  padding: 3px;
+  border: solid 1px red;
+  background-color: white;
+  font-size: 1.2rem;
+  font-family: orator std, monospace;
+  color: red;
+  outline: none;
+}
+
+/* line 315, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.about {
+  justify-content: center;
+  display: flex;
+  padding-right: 150px;
+  animation-duration: 2s;
+  animation-name: aparecerContent;
+  padding-top: 250px;
+}
+
+/* line 324, ../../Curso web design/Hana con scss/sass/estilos.scss */
+.bio {
+  justify-content: center;
+  display: flex;
+  padding-right: 150px;
+  animation-duration: 2s;
+  animation-name: aparecerContent;
+}
+
+/*# sourceMappingURL=estilos.css.map */
