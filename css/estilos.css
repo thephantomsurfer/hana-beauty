@@ -1,10 +1,10 @@
 /*VARIABLES*/
-/* line 5, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 5, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 9, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 9, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 #hanalogo {
   width: 100px;
 }
@@ -17,13 +17,13 @@ html {
         transform: rotateY(360deg);
     }
 }*/
-/* line 22, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 22, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .rotate3d:hover {
   animation-duration: 1s;
   animation-name: rotate;
 }
 
-/* line 27, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 27, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 #sumibranch {
   width: 1000px;
   opacity: 50%;
@@ -33,17 +33,17 @@ html {
   overflow: hidden;
 }
 
-/* line 36, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 36, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 #facebook {
   width: 20px;
 }
 
-/* line 40, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 40, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 #instagram {
   width: 20px;
 }
 
-/* line 44, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 44, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 #sumiBamboo {
   height: 100%;
   position: absolute;
@@ -54,17 +54,17 @@ html {
   opacity: 15%;
 }
 
-/* line 54, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 54, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 #darkSkin {
   width: 100%;
 }
 
-/* line 58, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 58, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 #yudith {
   height: 400px;
 }
 
-/* line 62, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 62, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .grid {
   /*background-color: brown;*/
   display: grid;
@@ -77,43 +77,42 @@ html {
   padding-top: 8%;
 }
 
-/* line 73, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 73, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 77, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 77, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .space {
-  margin-top: 50px;
+  margin-top: 50px; 
 }
 
-/* line 81, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 81, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 a.grow {
   color: red;
   text-decoration: none;
   font-family: orator std, monospace;
-  line-height: 3;
   font-size: 1.6rem;
   transition: font-size 1s;
 }
 
-/* line 88, ../../Curso web design/Hana con scss/sass/estilos.scss */
-a.grow :hover {
+/* line 88, ../../New folder (2)/Hana con scss/sass/estilos.scss */
+a.grow:hover {
   font-size: 3rem;
 }
 
-/* line 91, ../../Curso web design/Hana con scss/sass/estilos.scss */
-a.grow .h2 {
+/* line 91, ../../New folder (2)/Hana con scss/sass/estilos.scss */
+a.grow.h2 {
   font-size: 3rem;
 }
 
-/* line 98, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 98, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 body {
   margin: 0rem;
   background-image: url("../images/backtexture.png");
 }
 
-/* line 107, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 107, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 p {
   color: red;
   font-family: orator std, monospace;
@@ -121,12 +120,12 @@ p {
   font-size: 2.5rem;
 }
 
-/* line 112, ../../Curso web design/Hana con scss/sass/estilos.scss */
-p .detail {
+/* line 112, ../../New folder (2)/Hana con scss/sass/estilos.scss */
+p.detail {
   font-size: 1.2rem;
 }
 
-/* line 117, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 117, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 td {
   color: red;
   font-family: orator std, monospace;
@@ -135,13 +134,13 @@ td {
   font-weight: bold;
 }
 
-/* line 125, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 125, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .flexFather {
   display: flex;
   flex-direction: row;
 }
 
-/* line 130, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 130, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .side {
   display: flex;
   flex-direction: column;
@@ -160,7 +159,7 @@ td {
   }
 }
 
-/* line 147, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 147, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .content {
   display: flex;
   flex-direction: column;
@@ -169,7 +168,7 @@ td {
   /*background-color: seagreen;*/
 }
 
-/* line 154, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 154, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .backImage {
   display: flex;
   justify-content: center;
@@ -178,7 +177,7 @@ td {
   /*80%*/
 }
 
-/* line 161, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 161, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .sections {
   display: flex;
   flex-direction: column;
@@ -187,7 +186,7 @@ td {
   height: 400px;
 }
 
-/* line 169, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 169, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .desc {
   color: red;
   font-family: orator std, monospace;
@@ -195,7 +194,7 @@ td {
   padding-top: 10px;
 }
 
-/* line 176, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 176, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .socialMedia {
   display: flex;
   flex-direction: column;
@@ -203,7 +202,7 @@ td {
   padding-top: 120px;
 }
 
-/* line 183, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 183, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .footer {
   display: flex;
   flex-direction: column;
@@ -211,7 +210,7 @@ td {
   padding-top: 150px;
 }
 
-/* line 190, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 190, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .legales {
   color: red;
   font-family: orator std, monospace;
@@ -219,18 +218,18 @@ td {
   font-size: 1rem;
 }
 
-/* line 197, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 197, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 table {
   border-collapse: collapse;
   margin: 10px;
 }
 
-/* line 200, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 200, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 table td {
   border: solid 1px red;
 }
 
-/* line 205, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 205, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 #flowerIcon {
   display: flex;
   /*align-self: center;*/
@@ -249,7 +248,7 @@ table td {
   }
 }
 
-/* line 223, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 223, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .treatments {
   display: flex;
   flex-direction: column;
@@ -270,13 +269,13 @@ table td {
   }
 }
 
-/* line 243, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 243, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .row {
   display: flex;
   flex-direction: row;
 }
 
-/* line 248, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 248, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .formContact {
   display: flex;
   flex-direction: row;
@@ -287,7 +286,7 @@ table td {
   /*background-color: tomato;*/
 }
 
-/* line 258, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 258, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .inputContact {
   display: flex;
   flex-direction: column;
@@ -295,14 +294,14 @@ table td {
   justify-content: space-between;
 }
 
-/* line 265, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 265, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .messageArea {
   flex-direction: column;
   display: flex;
   /*background-color: turquoise;*/
 }
 
-/* line 271, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 271, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .buttonContact {
   background-color: red;
   border: none;
@@ -316,7 +315,7 @@ table td {
   cursor: pointer;
 }
 
-/* line 284, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 284, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 input {
   border: none;
   border-bottom: 1px solid red;
@@ -325,21 +324,21 @@ input {
   outline: none;
 }
 
-/* line 292, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 292, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 textarea {
   border: none;
   resize: none;
   outline: none;
 }
 
-/* line 298, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 298, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .smallText {
   font-size: 1.2rem;
   font-family: orator std, monospace;
   color: red;
 }
 
-/* line 304, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 304, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 select {
   width: 100%;
   padding: 3px;
@@ -351,7 +350,7 @@ select {
   outline: none;
 }
 
-/* line 315, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 315, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .about {
   justify-content: center;
   display: flex;
@@ -361,7 +360,7 @@ select {
   padding-top: 250px;
 }
 
-/* line 324, ../../Curso web design/Hana con scss/sass/estilos.scss */
+/* line 324, ../../New folder (2)/Hana con scss/sass/estilos.scss */
 .bio {
   justify-content: center;
   display: flex;
